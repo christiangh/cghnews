@@ -1,7 +1,7 @@
             <footer>
                 <div class="half_separator_bar">&nbsp;</div>
                 
-                <p id="my_text_footer">Diseño de Christian García Herreras</p>
+                <p id="my_text_footer">Diseño de Christian García Herreras<br />2014 - <?php echo date("Y"); ?></p>
                 
                 <?php wp_nav_menu( array('theme_location' => 'MenuSocial', 'container' => 'ul') ); ?>
             </footer>

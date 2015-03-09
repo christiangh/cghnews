@@ -489,9 +489,9 @@ footer{
 footer #my_text_footer{
     position: relative;
     float: left;
-    width: 40%;
-    margin: 5px 5% 0 0;
-    font-size: 18px;
+    width: auto;
+    margin: 0 10px 0 0;
+    font-size: 16px;
     font-weight: bold;
     color: #6E6E6E;
 }
@@ -500,7 +500,6 @@ footer #menu-redes-sociales{
     position: relative;
     float: right;
     width: auto;
-    max-width: 55%;
     height: 40px;
     list-style: none;
     padding: 0;
@@ -513,7 +512,7 @@ footer #menu-redes-sociales li{
     height: 40px;
     list-style: none;
     padding: 0;
-    margin: 0 20px 0 0;
+    margin: 0 15px 0 0;
 }
 
 footer #menu-redes-sociales li.last_social_item{
@@ -1281,6 +1280,10 @@ div.sharedaddy .sd-content ul{
     }
     /** PAGINATION **/
     
+    #main_column_front{
+        width: 790px;
+    }
+    
     .tertiary_post_front.odd{
         margin-bottom: 20px;
     }
@@ -1303,10 +1306,6 @@ div.sharedaddy .sd-content ul{
     }
     
     /** COMMON **/
-    #main_column_front{
-        width: 790px;
-    }
-    
     #main_post_front{
         width: 100%;
     }
@@ -1437,17 +1436,12 @@ div.sharedaddy .sd-content ul{
     }
     /** PAGINATION **/
     
-    #main_post_front{
-        width: 100%;
-    }
-    
-    #secondary_post_front{
-        width: 100%;
+    #main_column_front{
+        width: 790px;
     }
     
     #other_column_front_1{
         width: 100%;
-        
     }
     
     #other_column_front_1 article{
@@ -1460,6 +1454,7 @@ div.sharedaddy .sd-content ul{
     
     #other_column_front_2{
         width: 100%;
+        margin-top: 20px;
     }
     
     .headline_post_front{
@@ -1483,28 +1478,12 @@ div.sharedaddy .sd-content ul{
     /** CATEGORY PAGE **/
     
     /** COMMON **/
-    #main_column_front{
-        width: 790px;
-    }
-    
     #main_post_front{
         width: 100%;
     }
     
     #secondary_post_front{
         width: 100%;
-    }
-    
-    #other_column_front_1{
-        width: 250px;
-    }
-    
-    #other_column_front_1 article{
-        margin-bottom: 20px;
-    }
-    
-    #other_column_front_2{
-        width: 250px;
     }
     /** COMMON **/
 }
@@ -1615,14 +1594,6 @@ div.sharedaddy .sd-content ul{
     }
     /** PAGINATION **/
     
-    #main_column_front{
-        width: 100%;
-    }
-    
-    #main_post_front{
-        width: 100%;
-    }
-    
     #secondary_post_front{
         width: 100%;
     }
@@ -1646,11 +1617,12 @@ div.sharedaddy .sd-content ul{
     }
     
     #other_column_front_1 article.odd{
-        margin: 0 4% 20px 0;
+        margin: 0 4% 0 0;
     }
     
     #other_column_front_2{
         width: 100%;
+        margin-top: 20px;
     }
     
     .headline_post_front{
@@ -1665,6 +1637,10 @@ div.sharedaddy .sd-content ul{
     #main_box{
         width: 100%;
         margin: 0;
+    }
+    
+    #main_column_front{
+        width: 100%;
     }
     
     .main_post_category img{
@@ -1697,28 +1673,12 @@ div.sharedaddy .sd-content ul{
     /** CATEGORY PAGE **/
     
     /** COMMON **/
-    #main_column_front{
-        width: 790px;
-    }
-    
     #main_post_front{
         width: 100%;
     }
     
     #secondary_post_front{
         width: 100%;
-    }
-    
-    #other_column_front_1{
-        width: 250px;
-    }
-    
-    #other_column_front_1 article{
-        margin-bottom: 20px;
-    }
-    
-    #other_column_front_2{
-        width: 250px;
     }
     /** COMMON **/
 }
@@ -1884,13 +1844,12 @@ div.sharedaddy .sd-content ul{
     
     /** FOOTER **/
     footer #my_text_footer{
-        width: 50%;
-        margin: 10px 0 0;
-        font-size: 16px;
+        width: 180px;
+        margin: 0 0 0;
+        font-size: 14px;
     }
     
     footer #menu-redes-sociales{
-        max-width: 50%;
         height: 34px;
     }
     
@@ -1951,7 +1910,7 @@ div.sharedaddy .sd-content ul{
     }
     
     #other_column_front_1 article.odd{
-        margin: 0 4% 20px 0;
+        margin: 0 4% 0 0;
     }
     
     #other_column_front_2{
@@ -2269,7 +2228,10 @@ div.sharedaddy .sd-content ul{
     
     #other_column_front_1 article{
         width: 100%;
-        margin-bottom: 20px;
+    }
+    
+    #other_column_front_1 article.odd{
+        margin: 0 0 20px;
     }
     
     #other_column_front_2{
